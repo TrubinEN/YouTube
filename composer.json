@@ -1,0 +1,16 @@
+{
+    "name": "trubine/youtube",
+    "description": "Youtube api",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Trubin Eugene",
+            "email": "onlajn@bk.ru"
+        }
+    ],
+    "require": {
+        "curl/curl": "^1.9"
+    },
+    "autoload": { "psr-4": { "TrubinEN\\": "src" } }
+}
